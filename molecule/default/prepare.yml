@@ -1,0 +1,20 @@
+---
+- name: Prepare
+  hosts: all
+  gather_facts: no
+  become: yes
+
+  roles:
+    - role: buluma.bootstrap
+    - role: buluma.mysql
+      mysql_databases:
+        - name: test_db
+          encoding: utf8
+          collation: utf8_bin
+    - role: buluma.buildtools
+    - role: buluma.epel
+    - role: buluma.python_pip
+    - role: buluma.postgres
+      postgres_databases:
+        - name: test_db
+          state: present
