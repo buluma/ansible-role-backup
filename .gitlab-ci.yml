@@ -42,7 +42,7 @@ molecule_testing:
     - image=${image} tag=${tag} molecule test
   rules:
     - if: $CI_COMMIT_REF_NAME == "testing"
-  retry: 1
+  retry: 2
   parallel:
     matrix:
       - image: "enterpriselinux"
