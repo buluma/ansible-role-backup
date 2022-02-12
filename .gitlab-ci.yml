@@ -44,7 +44,7 @@ molecule_testing:
     - if: $CI_COMMIT_REF_NAME == "testing"
   retry: 2
   tags:
-    - local
+    - localhost
   parallel:
     matrix:
       - image: "enterpriselinux"
