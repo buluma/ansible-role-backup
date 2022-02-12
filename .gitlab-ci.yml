@@ -43,6 +43,8 @@ molecule_testing:
   rules:
     - if: $CI_COMMIT_REF_NAME == "testing"
   retry: 2
+  tags:
+    - ruby
   parallel:
     matrix:
       - image: "enterpriselinux"
@@ -67,6 +69,8 @@ molecule_testing:
         tag: "focal"
 
 galaxy:
+  tags:
+    - ruby
   script:
     - ansible-galaxy role info buluma.backup
 
