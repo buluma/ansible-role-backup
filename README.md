@@ -2,9 +2,9 @@
 
 The purpose of this role is to make backups of your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-backup/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-backup/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-backup/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-backup)|[![quality](https://img.shields.io/ansible/quality/58021)](https://galaxy.ansible.com/buluma/backup)|[![downloads](https://img.shields.io/ansible/role/d/58021)](https://galaxy.ansible.com/buluma/backup)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-backup.svg)](https://github.com/buluma/ansible-role-backup/releases/)|
+|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|---------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-backup/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-backup/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-backup/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-backup)|[![quality](https://img.shields.io/ansible/quality/58021)](https://galaxy.ansible.com/buluma/backup)|[![downloads](https://img.shields.io/ansible/role/d/58021)](https://galaxy.ansible.com/buluma/backup)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-backup.svg)](https://github.com/buluma/ansible-role-backup/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-backup.svg)](https://github.com/buluma/ansible-role-backup/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr/buluma/ansible-role-backup.svg)](https://github.com/buluma/ansible-role-backup/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
