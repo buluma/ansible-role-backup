@@ -20,13 +20,13 @@ molecule:
   parallel:
     matrix:
       - image: "enterpriselinux"
-        tag: "latest"
-      - image: "fedora-systemd"
-        tag: "34"
+        tag: "8"
       - image: "fedora-systemd"
         tag: "35"
       - image: "fedora-systemd"
         tag: "latest"
+      - image: "fedora-systemd"
+        tag: "rawhide"
       - image: "docker-opensuse-systemd"
         tag: "latest"
 
@@ -42,12 +42,12 @@ testing:
   parallel:
     matrix:
       - image: "enterpriselinux"
-        tag: "latest"
-      - image: "fedora-systemd"
-        tag: "34"
+        tag: "8"
       - image: "fedora-systemd"
         tag: "35"
       - image: "fedora-systemd"
         tag: "latest"
+      - image: "fedora-systemd"
+        tag: "rawhide"
       - image: "docker-opensuse-systemd"
         tag: "latest"

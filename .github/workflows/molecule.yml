@@ -6,9 +6,9 @@
 name: Ansible Molecule
 
 on:
-  # Schedule updates (once daily)
+  # Schedule updates (once weekly)
   schedule:
-    - cron: '3 2 * * *'
+    - cron: '3 2/1 * * 1,0'
   workflow_dispatch:
   push:
     branches:
@@ -44,13 +44,13 @@ jobs:
       matrix:
         config:
           - image: "enterpriselinux"
-            tag: "latest"
-          - image: "fedora-systemd"
-            tag: "34"
+            tag: "8"
           - image: "fedora-systemd"
             tag: "35"
           - image: "fedora-systemd"
             tag: "latest"
+          - image: "fedora-systemd"
+            tag: "rawhide"
           - image: "docker-opensuse-systemd"
             tag: "latest"
     steps:
