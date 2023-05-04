@@ -24,6 +24,10 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-backup/compare/v1.0.1...v1.0.2)
 
+**Merged pull requests:**
+
+- set concurrency [\#6](https://github.com/buluma/ansible-role-backup/pull/6) ([buluma](https://github.com/buluma))
+
 ## [v1.0.1](https://github.com/buluma/ansible-role-backup/tree/v1.0.1) (2022-02-12)
 
 [Full Changelog](https://github.com/buluma/ansible-role-backup/compare/v1.0.0...v1.0.1)
@@ -34,7 +38,6 @@
 
 **Merged pull requests:**
 
-- set concurrency [\#6](https://github.com/buluma/ansible-role-backup/pull/6) ([buluma](https://github.com/buluma))
 - Update .gitlab-ci.yml [\#4](https://github.com/buluma/ansible-role-backup/pull/4) ([buluma](https://github.com/buluma))
 - version bump [\#3](https://github.com/buluma/ansible-role-backup/pull/3) ([buluma](https://github.com/buluma))
 - closes \#1 [\#2](https://github.com/buluma/ansible-role-backup/pull/2) ([buluma](https://github.com/buluma))
