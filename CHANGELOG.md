@@ -1,5 +1,9 @@
 # Changelog
 
+## [v1.0.7](https://github.com/buluma/ansible-role-backup/tree/v1.0.7) (2023-05-05)
+
+[Full Changelog](https://github.com/buluma/ansible-role-backup/compare/v1.0.6...v1.0.7)
+
 ## [v1.0.6](https://github.com/buluma/ansible-role-backup/tree/v1.0.6) (2022-09-11)
 
 [Full Changelog](https://github.com/buluma/ansible-role-backup/compare/v1.0.5...v1.0.6)
