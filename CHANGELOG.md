@@ -1,5 +1,14 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-backup/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-backup/compare/v1.0.7...HEAD)
+
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#15](https://github.com/buluma/ansible-role-backup/issues/15)
+- Update action [\#14](https://github.com/buluma/ansible-role-backup/issues/14)
+
 ## [v1.0.7](https://github.com/buluma/ansible-role-backup/tree/v1.0.7) (2023-05-05)
 
 [Full Changelog](https://github.com/buluma/ansible-role-backup/compare/v1.0.6...v1.0.7)
