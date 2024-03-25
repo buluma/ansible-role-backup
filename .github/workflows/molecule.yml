@@ -56,6 +56,8 @@ jobs:
             tag: "rawhide"
           - image: "docker-opensuse-systemd"
             tag: "latest"
+          - image: "docker-molecule-images"
+            tag: "ubuntu2304"
     steps:
       - name: Checkout Role
         uses: actions/checkout@v4
