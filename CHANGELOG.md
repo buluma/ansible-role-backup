@@ -39,7 +39,6 @@
 **Merged pull requests:**
 
 - Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.5 to 1.0.8 [\#19](https://github.com/buluma/ansible-role-backup/pull/19) ([dependabot[bot]](https://github.com/apps/dependabot))
-- closes \#1 [\#2](https://github.com/buluma/ansible-role-backup/pull/2) ([buluma](https://github.com/buluma))
 
 ## [v1.0.9](https://github.com/buluma/ansible-role-backup/tree/v1.0.9) (2023-12-27)
 
@@ -102,6 +101,7 @@
 
 - Update .gitlab-ci.yml [\#4](https://github.com/buluma/ansible-role-backup/pull/4) ([buluma](https://github.com/buluma))
 - version bump [\#3](https://github.com/buluma/ansible-role-backup/pull/3) ([buluma](https://github.com/buluma))
+- closes \#1 [\#2](https://github.com/buluma/ansible-role-backup/pull/2) ([buluma](https://github.com/buluma))
 
 ## [v1.0.0](https://github.com/buluma/ansible-role-backup/tree/v1.0.0) (2022-02-12)
 
