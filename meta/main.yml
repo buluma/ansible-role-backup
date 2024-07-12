@@ -14,7 +14,8 @@ galaxy_info:
         - "8"
     - name: Fedora
       versions:
-        - all
+        - "39"
+        - "40"
     - name: opensuse
       versions:
         - all
