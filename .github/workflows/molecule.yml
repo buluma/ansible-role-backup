@@ -42,10 +42,10 @@ jobs:
         distro:
           - image: "enterpriselinux"
             tag: "8"
+          - image: "enterpriselinux"
+            tag: "latest"
           - image: "docker-molecule-images"
-            tag: "39"
-          - image: "docker-molecule-images"
-            tag: "40"
+            tag: "latest"
           - image: "docker-molecule-images"
             tag: "opensuse"
     steps:
