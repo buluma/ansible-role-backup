@@ -15,10 +15,6 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-backup/compare/v1.2.0...v24.2.26)
 
-**Merged pull requests:**
-
-- Bump release-drafter/release-drafter from 5 to 6 [\#22](https://github.com/buluma/ansible-role-backup/pull/22) ([dependabot[bot]](https://github.com/apps/dependabot))
-
 ## [v1.2.0](https://github.com/buluma/ansible-role-backup/tree/v1.2.0) (2024-01-20)
 
 [Full Changelog](https://github.com/buluma/ansible-role-backup/compare/v1.1.0...v1.2.0)
@@ -87,6 +83,7 @@
 
 **Merged pull requests:**
 
+- Bump release-drafter/release-drafter from 5 to 6 [\#22](https://github.com/buluma/ansible-role-backup/pull/22) ([dependabot[bot]](https://github.com/apps/dependabot))
 - set concurrency [\#6](https://github.com/buluma/ansible-role-backup/pull/6) ([buluma](https://github.com/buluma))
 
 ## [v1.0.1](https://github.com/buluma/ansible-role-backup/tree/v1.0.1) (2022-02-12)
