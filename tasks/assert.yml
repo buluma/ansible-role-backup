@@ -1,5 +1,4 @@
 ---
-
 - name: assert | Test if backup_directory is set correctly
   ansible.builtin.assert:
     that:
