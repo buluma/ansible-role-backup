@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-backup/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-backup/compare/v24.3.31...HEAD)
+
+**Merged pull requests:**
+
+- Bump actions/checkout from 4 to 6 [\#28](https://github.com/buluma/ansible-role-backup/pull/28) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v24.3.31](https://github.com/buluma/ansible-role-backup/tree/v24.3.31) (2024-03-26)
 
 [Full Changelog](https://github.com/buluma/ansible-role-backup/compare/v24.2.26...v24.3.31)
@@ -14,6 +22,10 @@
 ## [v24.2.26](https://github.com/buluma/ansible-role-backup/tree/v24.2.26) (2024-02-17)
 
 [Full Changelog](https://github.com/buluma/ansible-role-backup/compare/v1.2.0...v24.2.26)
+
+**Merged pull requests:**
+
+- Bump release-drafter/release-drafter from 5 to 6 [\#22](https://github.com/buluma/ansible-role-backup/pull/22) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [v1.2.0](https://github.com/buluma/ansible-role-backup/tree/v1.2.0) (2024-01-20)
 
@@ -83,7 +95,6 @@
 
 **Merged pull requests:**
 
-- Bump release-drafter/release-drafter from 5 to 6 [\#22](https://github.com/buluma/ansible-role-backup/pull/22) ([dependabot[bot]](https://github.com/apps/dependabot))
 - set concurrency [\#6](https://github.com/buluma/ansible-role-backup/pull/6) ([buluma](https://github.com/buluma))
 
 ## [v1.0.1](https://github.com/buluma/ansible-role-backup/tree/v1.0.1) (2022-02-12)
