@@ -11,40 +11,38 @@ The purpose of this role is to make backups of your system.
 This example is taken from [`molecule/default/converge.yml`](https://github.com/buluma/ansible-role-backup/blob/master/molecule/default/converge.yml) and is tested on each push, pull request and release.
 
 ```yaml
----
-- name: Converge
-  hosts: all
-  become: true
-  gather_facts: true
+  - name: Converge
+    hosts: all
+    become: true
+    gather_facts: true
 
-  roles:
-    - role: buluma.backup
-      backup_cleanup: false
+    roles:
+      - role: buluma.backup
+        backup_cleanup: false
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-backup/blob/master/molecule/default/prepare.yml):
 
 ```yaml
----
-- name: Prepare
-  hosts: all
-  gather_facts: false
-  become: true
+  - name: Prepare
+    hosts: all
+    gather_facts: false
+    become: true
 
-  roles:
-    - role: buluma.bootstrap
-    - role: buluma.mysql
-      mysql_databases:
-        - name: test_db
-          encoding: utf8
-          collation: utf8_bin
-    - role: buluma.buildtools
-    - role: buluma.epel
-    - role: buluma.python_pip
-    - role: buluma.postgres
-      postgres_databases:
-        - name: test_db
-          state: present
+    roles:
+      - role: buluma.bootstrap
+      - role: buluma.mysql
+        mysql_databases:
+          - name: test_db
+            encoding: utf8
+            collation: utf8_bin
+      - role: buluma.buildtools
+      - role: buluma.epel
+      - role: buluma.python_pip
+      - role: buluma.postgres
+        postgres_databases:
+          - name: test_db
+            state: present
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
@@ -54,7 +52,6 @@ Also see a [full explanation and example](https://buluma.github.io/how-to-use-th
 The default values for the variables are set in [`defaults/main.yml`](https://github.com/buluma/ansible-role-backup/blob/master/defaults/main.yml):
 
 ```yaml
----
 # defaults file for backup
 
 # The directory on the Ansible controller where to store backups.
