@@ -12,39 +12,39 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
 
 ```yaml
 ---
-  - name: Converge
-    hosts: all
-    become: true
-    gather_facts: true
+- name: Converge
+  hosts: all
+  become: true
+  gather_facts: true
 
-    roles:
-      - role: buluma.backup
-        backup_cleanup: false
+  roles:
+  - role: buluma.backup
+    backup_cleanup: false
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-backup/blob/master/molecule/default/prepare.yml):
 
 ```yaml
 ---
-  - name: Prepare
-    hosts: all
-    gather_facts: false
-    become: true
+- name: Prepare
+  hosts: all
+  gather_facts: false
+  become: true
 
-    roles:
-      - role: buluma.bootstrap
-      - role: buluma.mysql
-        mysql_databases:
-          - name: test_db
-            encoding: utf8
-            collation: utf8_bin
-      - role: buluma.buildtools
-      - role: buluma.epel
-      - role: buluma.python_pip
-      - role: buluma.postgres
-        postgres_databases:
-          - name: test_db
-            state: present
+  roles:
+  - role: buluma.bootstrap
+  - role: buluma.mysql
+    mysql_databases:
+    - name: test_db
+      encoding: utf8
+      collation: utf8_bin
+  - role: buluma.buildtools
+  - role: buluma.epel
+  - role: buluma.python_pip
+  - role: buluma.postgres
+    postgres_databases:
+    - name: test_db
+      state: present
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
@@ -73,9 +73,9 @@ backup_timestamp: "{{ ansible_date_time.date }}"
 backup_format: zip
 
 backup_objects:
-  - name: varspool
-    type: directory
-    source: /var/spool
+- name: varspool
+  type: directory
+  source: /var/spool
 ```
 
 ## [Requirements](#requirements)
