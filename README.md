@@ -73,9 +73,9 @@ backup_timestamp: "{{ ansible_date_time.date }}"
 backup_format: zip
 
 backup_objects:
-- name: varspool
-  type: directory
-  source: /var/spool
+  - name: varspool
+    type: directory
+    source: /var/spool
 ```
 
 ## [Requirements](#requirements)
