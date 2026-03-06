@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump docker/setup-buildx-action from 3 to 4 [\#30](https://github.com/buluma/ansible-role-backup/pull/30) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 4 to 6 [\#28](https://github.com/buluma/ansible-role-backup/pull/28) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [v24.3.31](https://github.com/buluma/ansible-role-backup/tree/v24.3.31) (2024-03-26)
