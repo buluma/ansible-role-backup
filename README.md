@@ -111,7 +111,6 @@ This role has been tested on these [container images](https://hub.docker.com/u/r
 |---------|----|
 |[EL](https://hub.docker.com/r/robertdebock/enterpriselinux)|all|
 |[Fedora](https://hub.docker.com/r/robertdebock/fedora)|all|
-|[opensuse](https://hub.docker.com/r/robertdebock/opensuse)|all|
 
 The minimum version of Ansible required is 2.12, tests have been done on:
 
@@ -128,3 +127,4 @@ If you find issues, please register them on [GitHub](https://github.com/buluma/a
 ## [Author Information](#author-information)
 
 [Michael Buluma](https://buluma.github.io/)
+
