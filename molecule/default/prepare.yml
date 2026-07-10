@@ -1,20 +1,20 @@
 ---
 - name: Prepare
   hosts: all
-  gather_facts: false
   become: true
+  gather_facts: false
+
+  pre_tasks:
+    - name: Install sudo if missing
+      ansible.builtin.raw: "{{ ansible_pkg_mgr | default('dnf') }} install -y sudo}"
+      become: false
+      changed_when: false
+      failed_when: false
 
   roles:
     - role: buluma.bootstrap
     - role: buluma.mysql
-      mysql_databases:
-        - name: test_db
-          encoding: utf8
-          collation: utf8_bin
     - role: buluma.buildtools
     - role: buluma.epel
     - role: buluma.python_pip
     - role: buluma.postgres
-      postgres_databases:
-        - name: test_db
-          state: present
