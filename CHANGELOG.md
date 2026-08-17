@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-backup/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-backup/compare/v26.6.1...HEAD)
+
+**Merged pull requests:**
+
+- Bump ansible/ansible-lint from 26.6.0 to 26.8.0 [\#34](https://github.com/buluma/ansible-role-backup/pull/34) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v26.6.1](https://github.com/buluma/ansible-role-backup/tree/v26.6.1) (2026-07-21)
 
 [Full Changelog](https://github.com/buluma/ansible-role-backup/compare/v26.6.0...v26.6.1)
