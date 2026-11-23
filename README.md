@@ -67,6 +67,26 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
     - role: buluma.epel
     - role: buluma.python_pip
     - role: buluma.postgres
+
+  tasks:
+    - name: Create test_db in mysql
+      ansible.mysql.mysql_db:
+        name: test_db
+        state: present
+
+    - name: Install psycopg2-binary
+      ansible.builtin.pip:
+        name: psycopg2-binary
+        state: present
+      when:
+        - ansible_facts['os_family'] != "Debian"
+
+    - name: Create test_db in postgres
+      community.postgresql.postgresql_db:
+        name: test_db
+        state: present
+      become_user: postgres
+      become: true
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
